@@ -1,8 +1,8 @@
 @echo off
-echo Waiting for the Mission Control to start...
+echo Waiting for the Mission Control application to start...
 
 :wait_for_app
-adb shell pidof com.JSCAN.MissionControlMRIVR >nul 2>&1
+adb shell pidof com.douglasresearch.missioncontrol >nul 2>&1
 if errorlevel 1 (
     timeout /t 1 >nul
     goto wait_for_app
