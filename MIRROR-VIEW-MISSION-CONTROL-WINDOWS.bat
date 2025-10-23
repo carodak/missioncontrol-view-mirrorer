@@ -9,4 +9,4 @@ if errorlevel 1 (
 )
 
 echo App started. Launching scrcpy...
-scrcpy.exe --no-audio --max-fps=30 --max-size=1600 --no-control --render-driver=sdl
+scrcpy.exe --no-audio --crop=1600:900:2017:510 -b 8M --max-fps 30
