@@ -8,7 +8,7 @@ echo
 
 echo "Pulling Mission Control data..."
 
-adb pull /sdcard/Android/data/com.douglasresearch.missioncontrol/files/ ./moon-trip-data/
+adb pull /sdcard/Android/data/com.dakoure.missioncontrol/files/ ./moon-trip-data/
 
 echo
 echo "Done! Data saved in the moon-trip-data folder."

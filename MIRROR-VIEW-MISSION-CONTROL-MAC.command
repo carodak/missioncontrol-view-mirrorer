@@ -4,7 +4,7 @@ echo "Waiting for the Mission Control application to start..."
 
 # Boucle jusqu'à ce que l'app tourne sur l'appareil Android
 while true; do
-    if adb shell pidof com.douglasresearch.missioncontrol >/dev/null 2>&1; then
+    if adb shell pidof com.dakoure.missioncontrol >/dev/null 2>&1; then
         break
     fi
     sleep 1
