@@ -20,10 +20,8 @@ We added custom scripts to make it easier to **mirror the [Mission Control VR ap
 1. Connect your VR headset to your computer using a **USB-C cable**.  
 2. Accept the **USB debugging** prompt on your headset.  
 3. In the missioncontrol-view-mirrorer folder, right-click on **`MIRROR-VIEW-MISSION-CONTROL_WINDOWS.bat`**, select **“Create shortcut”** and place it on your desktop.  
-4. **Double-click** the shortcut **before launching Mission Control in VR**.  
-5. The terminal will display:  "Waiting for Mission Control to start...".
-6. Start **Mission Control** in VR.  
-7. Your VR screen will automatically be mirrored to your computer.
+4. You can **Double-click** the shortcut **before or after launching Mission Control in VR**.  
+5. Your VR screen will automatically be mirrored to your computer.
 
 **Retrieve data after the session:**  
 Double-click **`GET_MOON_TRIP_DATA_WINDOWS.bat`** and follow the on-screen instructions to pull the recorded moon trip data.
