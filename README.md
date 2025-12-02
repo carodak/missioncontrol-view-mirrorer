@@ -62,3 +62,7 @@ chmod +x GET_MOON_TRIP_DATA_MAC.command
 4. After the session, double-click GET_MOON_TRIP_DATA_MAC.command to retrieve the moon trip data.
 
 Reminder: Your headset must be connected via USB-C and USB debugging mode must be enabled for both mirroring and data retrieval scripts to work.
+
+### Devlogs
+
+2025-12-02: Applied flickering community patch: https://github.com/Genymobile/scrcpy/issues/5913 
